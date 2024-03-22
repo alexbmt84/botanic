@@ -8,8 +8,8 @@
           </svg>
     
           <div class="mx-1 text-gray-700">
-            <h3 class="uppercase tracking-[0.15em] font-medium ">Mist Gardens</h3>
-            <p class="text-xs italic ">Museum & Botanical Garden</p>
+            <h3 class="uppercase tracking-[0.15em] font-medium ">STEPHANE BEAUMONT</h3>
+            <p class="text-xs italic ">Jardiner Autrement</p>
           </div>
         </a>
   
@@ -23,26 +23,24 @@
       <div :class="[isOpen ? 'opacity-100 ' : 'opacity-0 -translate-x-full ']" class=" absolute lg:static transition-all duration-300 w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-20 sm:top-24 bg-[#475F45] ">
         <nav class="flex flex-col items-center space-y-8 lg:flex-row lg:space-y-0 lg:-mx-4">
             <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-                Home
+                Accueil
             </a>
   
             <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-                Visit
+                Entretien saisonnier
             </a>
   
             <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-                Exhibitions
+                Services de la taille
             </a>
   
             <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-                Programs & Events
+                Biocontrôle
             </a>
   
             <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-                Store
+                Contact
             </a>
-  
-            <a class="px-8 py-2.5 text-white lg:text-[#475F45] lg:hover:bg-[#475F45] lg:hover:text-white duration-300 transition-colors font-medium lg:mx-4 border-2 lg:border-[#475F45] border-white" href="#">Membership</a>
         </nav>
       </div>
     </div>
@@ -50,10 +48,10 @@
 
   <section class="container flex flex-col items-center px-6 py-12 mx-auto lg:flex-row">
       <div class="lg:w-1/2">
-        <h1 class="max-w-xl font-serif text-4xl font-medium tracking-wide text-[#343D33] capitalize md:text-6xl ">A beatiful adventure awaits</h1>
+        <h1 class="max-w-xl font-serif text-4xl font-medium tracking-wide text-[#343D33] capitalize md:text-6xl ">Rencontrez Stéphane Beaumont</h1>
 
-        <p class="max-w-lg mt-4 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. At magnam voluptatibus perferendis odit optio.</p>
-        
+        <p class="max-w-lg mt-4 text-gray-500">Pour vos petits travaux de jardinage et d’entretien vous pourrez bénéficier d’une déduction ou crédit d’impôts de 50% de votre facture TTC.</p>
+        <p class="max-w-lg mt-4 text-gray-500">Pour vos petits travaux de jardinage et d’entretien vous pourrez bénéficier d’une déduction ou crédit d’impôts de 50% de votre facture TTC.</p>
         <div class="mt-6 sm:flex sm:items-center">
           <a href="#" class="bg-[#475F45] hover:bg-[#475F45]/80 duration-300 transition-colors border-2 border-[#475F45] px-6 block text-center py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white ">
             Buy Tickets
