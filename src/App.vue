@@ -51,7 +51,8 @@
         <h1 class="max-w-xl font-serif text-4xl font-medium tracking-wide text-[#343D33] capitalize md:text-6xl ">Rencontrez Stéphane Beaumont</h1>
 
         <p class="max-w-lg mt-4 text-gray-500">Pour vos petits travaux de jardinage et d’entretien vous pourrez bénéficier d’une déduction ou crédit d’impôts de 50% de votre facture TTC.</p>
-        <p class="max-w-lg mt-4 text-gray-500">Pour vos petits travaux de jardinage et d’entretien vous pourrez bénéficier d’une déduction ou crédit d’impôts de 50% de votre facture TTC.</p>
+        <p class="max-w-lg mt-4 text-gray-500">Cet avantage fiscal est cumulable avec ceux d’autres prestations de service à la personne.</p>
+        
         <div class="mt-6 sm:flex sm:items-center">
           <a href="#" class="bg-[#475F45] hover:bg-[#475F45]/80 duration-300 transition-colors border-2 border-[#475F45] px-6 block text-center py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white ">
             Buy Tickets
