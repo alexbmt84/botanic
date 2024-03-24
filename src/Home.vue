@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <video class="mt-5" width="550" autoplay loop>
+    <video class="mt-5 mx-auto" width="550" autoplay loop>
   <source src="/Jardins.mp4" type="video/mp4" />
 
 </video>
@@ -97,7 +97,7 @@
     </div>
   </section>
 
-  <section class="container px-6 py-12 mx-auto lg:py-16">
+  <section class="container px-6 py-8 mx-auto lg:py-16">
     <h3
       class="text-center font-serif text-3xl text-[#343D33] capitalize md:text-4xl lg:text-5xl"
     >
@@ -148,7 +148,7 @@
           />
         </div>
 
-        <div class="mb-3 pt-0">
+        <div class="pt-0">
           <a
           href="#"
           class="bg-[#475F45] hover:bg-[#475F45]/80 duration-300 transition-colors border-2 border-[#475F45] px-6 block text-center py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white"
@@ -209,6 +209,17 @@
       </div>
     </div> -->
   </section>
+
+  <iframe width="100%" 
+          height="550px" 
+          frameborder="0" 
+          allowfullscreen 
+          allow="geolocation" 
+          src="//umap.openstreetmap.fr/en/map/untitled-map_1043927?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true">
+  </iframe>
+  <p>
+    <a href="//umap.openstreetmap.fr/en/map/untitled-map_1043927?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true"></a>
+  </p>
 
 </template>
 <script>
