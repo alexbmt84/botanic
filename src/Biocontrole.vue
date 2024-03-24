@@ -6,13 +6,13 @@
       <!-- Le contenu de votre page ici -->
     </div>
 
-    <div class="mx-auto">
+    <div class="mx-auto px-12">
       <p class="text-center">Le biocontrôle se définit comme un ensemble de méthodes de protection des cultures faisant appel à des organismes vivants ou à des substances naturelles.</p>
       <p class="text-center mt-3">Le principe est d’utiliser les interactions qui existent entre les espèces dans le milieu naturel pour réguler les populations d’agresseurs des cultures.</p>
       <p class="text-center mt-3">Le biocontrôle s’inscrit dans un mouvement général cherchant à limiter les intrants (engrais, produits phytos, etc.) et à diversifier les solutions de protection des plantes.</p>
     </div>
 
-    <section class="px-16 mt-16 mb-20">
+    <section class="lg:px-16 px-12 mt-16 mb-20">
   <div class="container bg-[#343D33] mx-auto py-8 px-8">
     <div class="grid md:grid-cols-3 gap-8">
       <!-- Column 1 -->

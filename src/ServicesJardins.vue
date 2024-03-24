@@ -23,7 +23,7 @@
   </section>
 </div>
 
-<section class="px-16">
+<section class="lg:px-16 px-12">
   <div class="container bg-[#343D33] mx-auto py-8 px-8">
     <div class="grid md:grid-cols-3 gap-8">
       <!-- Column 1 -->
@@ -50,7 +50,7 @@
   </div>
 </section>
 
-<section class="px-16 mt-20 mb-20">
+<section class="lg:px-16 px-12 mt-20 mb-20">
   <div class="container bg-[#343D33] mx-auto py-8 px-8">
     <div class="grid md:grid-cols-3 gap-8">
       <!-- Column 1 -->
