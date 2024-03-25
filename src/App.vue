@@ -53,32 +53,37 @@
         <nav class="flex flex-col items-center space-y-8 lg:flex-row lg:space-y-0 lg:-mx-4">
           
           <router-link
+              @click="toggleMenu"
               to="/"
-              class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+              class="sm-link font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
               Accueil
           </router-link>
 
           <router-link
+            @click="toggleMenu"
             to="/services-au-jardin"
-            class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+            class="sm-link font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
             Entretien saisonnier
           </router-link>
 
           <router-link
+            @click="toggleMenu"
             to="/services-de-la-taille"
-            class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+            class="sm-link font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
             Services de la taille
           </router-link>
 
           <router-link
+            @click="toggleMenu"
             to="/services"
-            class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+            class="sm-link font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
             Biocontrôle
           </router-link>
 
           <router-link
+            @click="toggleMenu"
             to="/contactez-moi"
-            class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+            class="sm-link font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
             Contact
           </router-link>
 
@@ -266,11 +271,18 @@
 </template>
 
 <script>
+
 export default {
   data() {
     return {
       isOpen: false,
     };
   },
+  methods: {
+    toggleMenu() {
+      this.isOpen = !this.isOpen;
+    },
+  },
 };
+
 </script>
