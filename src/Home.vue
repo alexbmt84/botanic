@@ -37,14 +37,14 @@
       </div>
     </div>
 
-    <video class="mt-5 mx-auto" width="550" autoplay loop>
+    <video class="mt-8 mx-auto" width="550" autoplay loop muted playsinline>
   <source src="/Jardins.mp4" type="video/mp4" />
 
 </video>
   </section>
 
-  <section class="bg-[#343D33] mt-12">
-    <div class="container flex flex-col px-6 py-16 mx-auto mt-12">
+  <section class="bg-[#343D33] lg:mt-12">
+    <div class="container flex flex-col px-6 py-16 mx-auto lg:mt-12">
       <div
         class="order-2 mt-8 lg:order-1 lg:mt-0 lg:flex lg:items-center lg:-mx-6"
       >
