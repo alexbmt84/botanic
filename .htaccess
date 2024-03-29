@@ -1,0 +1,18 @@
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Votre politique de cache par défaut
+  ExpiresDefault "access plus 1 month"
+
+  # Types de fichiers spécifiques
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType application/font-woff2 "access plus 1 year"
+
+  # Désactivez le cache pour les fichiers HTML (si vous voulez que chaque page soit toujours récupérée)
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>

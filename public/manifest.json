@@ -1,0 +1,17 @@
+{
+  "name": "Stéphane Beaumont Jardinier Bédoin",
+  "short_name": "Stéphane Beaumont Jardinier",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Services de jardinage professionnels à Bédoin, Vaucluse. Entretien de jardins, conception paysagère, création et plus. Jardinier de confiance, tarifs concurrentiels et abordables. Respect de l'environnement, zéro phyto, alternatives non polluantes, contrôle de la biodiversité, lutte biologique contre les ravageurs. Contactez-moi pour transformer votre espace extérieur",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#475F45"
+}
