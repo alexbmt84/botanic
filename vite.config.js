@@ -12,7 +12,7 @@ export default defineConfig({
         viteCompression(),
     ],
     server: {
-        host: 'local.botanic.com',
+        host: 'stephanebeaumontjardinier.com',
         hmr: {
             host: 'localhost',
         },
