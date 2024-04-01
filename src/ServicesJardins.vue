@@ -34,7 +34,7 @@
       </div>
 
       <div class="lg:w-1/2 flex justify-center lg:justify-end">
-        <img class="object-cover h-auto max-w-full" src="/img/taille_arbustives.webp" alt="">
+        <img class="object-cover h-auto max-w-full rounded-xl" src="/img/taille_arbustives.webp" alt="">
       </div>
 
     </section>

@@ -38,7 +38,7 @@
 
     </div>
 
-    <video class="mt-8 mx-auto rounded-xl border-4 border-emerald-900" width="450" autoplay loop muted playsinline>
+    <video class="mt-8 mx-auto rounded-xl border-2 border-emerald-900" width="450" autoplay loop muted playsinline>
       <source src="/Jardinage.mp4" type="video/mp4"/>
       <track src="" kind="captions" srclang="fr" label="french_captions">
     </video>

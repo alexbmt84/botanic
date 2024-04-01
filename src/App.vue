@@ -10,7 +10,9 @@
 
         <a class="flex items-center -mx-1" href="/">
 
-          <svg
+          <img src="/iconobg.png" alt="logo" width="96px" srcset="">
+
+          <!-- <svg
               class="w-8 h-8 mx-1 sm:h-10 sm:w-10"
               viewBox="0 0 49 49"
               fill="none"
@@ -24,7 +26,7 @@
                 fill="#475F45"
             />
 
-          </svg>
+          </svg> -->
 
           <div class="mx-1 text-gray-700">
 
@@ -123,8 +125,9 @@
       <div>
 
         <a class="flex items-center -mx-2" href="#">
-
-          <svg
+          
+          <img src="/iconobg.png" alt="logofooter" width="96px" srcset="">
+          <!-- <svg
               class="w-10 h-10 mx-2"
               width="48"
               height="48"
@@ -140,7 +143,7 @@
                 fill="white"
             />
 
-          </svg>
+          </svg> -->
 
           <div class="mx-2 text-white">
 
