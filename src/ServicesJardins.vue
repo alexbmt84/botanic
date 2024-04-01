@@ -22,8 +22,10 @@
 
         <div class="mt-6">
 
-          <a href="/contactez-moi" target="_blank"
-             class="block bg-[#475F45] hover:bg-[#475F45]/80 transition-colors border-2 border-[#475F45] text-center px-6 py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white mb-5">
+          <a href="/contactez-moi"
+            target="_blank"
+            aria-label="contact"
+            class="block bg-[#475F45] hover:bg-[#475F45]/80 transition-colors border-2 border-[#475F45] text-center px-6 py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white mb-5">
             Contactez-moi
           </a>
 
@@ -32,7 +34,7 @@
       </div>
 
       <div class="lg:w-1/2 flex justify-center lg:justify-end">
-        <img class="object-cover h-auto max-w-full" src="/img/taille_haies.webp" alt="">
+        <img class="object-cover h-auto max-w-full" src="/img/taille_arbustives.webp" alt="">
       </div>
 
     </section>

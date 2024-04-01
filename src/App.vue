@@ -62,8 +62,8 @@
       </div>
 
       <div
-          :class="[isOpen ? 'opacity-100 ' : 'opacity-0 -translate-x-full ']"
-          style="z-index: 1;"
+          :class="[isOpen ? 'opacity-100 block z-10' : 'opacity-0 -translate-x-full']"
+          style=""
           class="absolute lg:static transition-all duration-300 w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-20 sm:top-24 bg-[#475F45]"
       >
 
