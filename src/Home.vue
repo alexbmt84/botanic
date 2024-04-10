@@ -174,7 +174,7 @@
 
         <div class="mb-3 pt-0 mx-auto">
 
-          <input class="btn w-1/3 cursor-pointer mx-auto bg-[#475F45] hover:bg-[#475F45]/80 duration-300 transition-colors border-2 border-[#475F45] px-6 block text-center py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white mb-5"
+          <input class="btn lg:w-1/3 cursor-pointer mx-auto bg-[#475F45] hover:bg-[#475F45]/80 duration-300 transition-colors border-2 border-[#475F45] px-6 block text-center py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white mb-5"
                 type="submit" 
                 value="Envoyer">
 
