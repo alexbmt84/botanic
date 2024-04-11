@@ -323,7 +323,7 @@
 
     </div>
 
-    <p class="w-full py-6 mx-auto text-white text-center bg-[#343D33]">
+    <p class="w-full py-6 px-6 mx-auto text-white text-center bg-[#343D33]">
       &copy; 2024 Stéphane Beaumont. Tous droits réservés.
     </p>
 
