@@ -6,7 +6,7 @@
         class="container px-6 py-6 mx-auto lg:flex lg:items-center lg:justify-between"
     >
 
-      <div class="flex items-center justify-between">
+      <div class="-ml-6 flex items-center justify-between">
 
         <router-link class="flex items-center -mx-1" href="/" to="/">
 
@@ -64,9 +64,9 @@
       </div>
 
       <div
-          :class="[isOpen ? 'opacity-100 block z-10' : 'opacity-0 -translate-x-full']"
+          :class="[isOpen ? 'opacity-100 block z-10' : 'opacity-0 hidden lg:block -translate-x-full']"
           style=""
-          class="absolute lg:static transition-all duration-300 w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-20 sm:top-24 bg-[#475F45]"
+          class="mt-5 absolute lg:static transition-all duration-300 w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-20 sm:top-24 bg-[#475F45]"
       >
 
         <nav class="flex flex-col items-center space-y-8 lg:flex-row lg:space-y-0 lg:-mx-4">
