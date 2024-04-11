@@ -27,10 +27,10 @@ jobs:
       - name: Deploy to cPanel
         uses: appleboy/scp-action@master
         env:
-          HOST: ${{ secrets.CPANEL_HOST }}
-          USERNAME: ${{ secrets.CPANEL_USERNAME }}
+          CPANEL_HOST: ${{ secrets.CPANEL_HOST }}
+          CPANEL_USERNAME: ${{ secrets.CPANEL_USERNAME }}
           PORT: 22
-          KEY: ${{ secrets.CPANEL_SSH_KEY }}
+          CPANEL_SSH_KEY: ${{ secrets.CPANEL_SSH_KEY }}
         with:
           source: "dist"
           target: "sites/stephanebeaumontjardinier.com"
