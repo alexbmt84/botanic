@@ -32,8 +32,3 @@ jobs:
           port: 22
           source: "dist"
           target: "sites/stephanebeaumontjardinier.com"
-          exclude: |
-            **/.git**
-            **/.git*/**
-            **/node_modules/**
-            **/.**
