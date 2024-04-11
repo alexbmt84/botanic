@@ -8,37 +8,41 @@
 
   </div>
 
-  <div class="container mx-auto py-12 px-6 bg-[#343D33] mb-16">
+  <section class="lg:px-16 px-12">
 
-    <div class="flex flex-wrap justify-center">
+    <div class="container mx-auto py-12 px-6 bg-[#343D33] mb-16 rounded-2xl">
 
-      <div class="w-full sm:w-1/3 text-center px-6">
+      <div class="flex flex-wrap justify-center">
 
-        <img src="/img/taille_oliviers.webp" alt="Tailles des oliviers" class="mx-auto"/>
-        <h2 class="text-xl mt-8 font-semibold text-white">Tailles des oliviers</h2>
-        <p class="mt-1 text-white">Production / ornementale</p>
+        <div class="w-full sm:w-1/3 text-center px-6">
 
-      </div>
+          <img src="/img/taille_oliviers.webp" alt="Tailles des oliviers" class="mx-auto border-2 border-white rounded-lg"/>
+          <h2 class="text-xl mt-8 font-semibold text-white">Tailles des oliviers</h2>
+          <p class="mb-8 sm:mb-0 md:mb-0 lg:mb-0 mt-1 text-white">Production / ornementale</p>
 
-      <div class="w-full sm:w-1/3 text-center px-6">
+        </div>
 
-        <img src="/img/taille_fruitiers.webp" alt="Tailles des fruitiers" class="mx-auto"/>
-        <h2 class="text-xl mt-8 font-semibold text-white">Tailles des fruitiers</h2>
-        <p class="mt-1 text-white">Un service d'expert</p>
+        <div class="w-full sm:w-1/3 text-center px-6">
 
-      </div>
+          <img src="/img/taille_fruitiers.webp" alt="Tailles des fruitiers" class="mx-auto border-2 border-white rounded-lg"/>
+          <h2 class="text-xl mt-8 font-semibold text-white">Tailles des fruitiers</h2>
+          <p class="mb-8 sm:mb-0md:mb-0 lg:mb-0 mt-1 text-white">Un service d'expert</p>
 
-      <div class="w-full sm:w-1/3 text-center px-6">
+        </div>
 
-        <img src="/img/taille_arbustives.webp" alt="Tailles arbustives" class="mx-auto"/>
-        <h2 class="text-xl mt-8 font-semibold text-white">Tailles arbustives</h2>
-        <p class="mt-1 text-white">Centré sur le client</p>
+        <div class="w-full sm:w-1/3 text-center px-6">
+
+          <img src="/img/taille_arbustives.webp" alt="Tailles arbustives" class="mx-auto border-2 border-white rounded-lg"/>
+          <h2 class="text-xl mt-8 font-semibold text-white">Tailles arbustives</h2>
+          <p class="mt-1 text-white">Centré sur le client</p>
+
+        </div>
 
       </div>
 
     </div>
 
-  </div>
+  </section>
 
 </template>
 

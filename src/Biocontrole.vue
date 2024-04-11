@@ -21,13 +21,13 @@
 
   <section class="lg:px-16 px-12 mt-16 mb-20">
 
-    <div class="container bg-[#343D33] mx-auto py-8 px-8">
+    <div class="container bg-[#343D33] mx-auto py-8 px-8 rounded-2xl">
 
       <div class="grid md:grid-cols-3 gap-8">
 
         <div class="flex flex-col items-center text-center">
 
-          <img src="/img/buis.webp" alt="Buis" class="w-full shadow-lg">
+          <img src="/img/buis.webp" alt="Buis" class="w-full shadow-lg border-2 border-white rounded-lg">
           <h2 class="mt-4 font-bold text-xl text-white">Buis</h2>
           <p class="mt-2 text-white">Protection de vos buis contre de la pyrale du buis en installant des pièges à
             phéromones ou avec un traitement naturel.</p>
@@ -36,7 +36,7 @@
 
         <div class="flex flex-col items-center text-center">
 
-          <img src="/img/palmiers.webp" alt="Palmiers" class="w-full shadow-lg">
+          <img src="/img/palmiers.webp" alt="Palmiers" class="w-full shadow-lg border-2 border-white rounded-lg">
           <h2 class="mt-4 font-bold text-xl text-white">Palmiers</h2>
           <p class="mt-2 text-white">Traitement naturel et efficace contre les ravageurs du palmier avec piégeage ou
             application de nématodes.</p>
@@ -45,7 +45,7 @@
 
         <div class="flex flex-col items-center text-center">
 
-          <img src="/img/pucerons.webp" alt="Pucerons" class="w-full shadow-lg">
+          <img src="/img/pucerons.webp" alt="Pucerons" class="w-full shadow-lg border-2 border-white rounded-lg">
           <h2 class="mt-4 font-bold text-xl text-white">Pucerons</h2>
           <p class="mt-2 text-white">En situation de forte infestation, mise en place des colonies de coccinelles et
             chrysops qui permettront de contrôler les dommages.</p>

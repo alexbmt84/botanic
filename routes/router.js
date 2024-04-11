@@ -16,8 +16,12 @@ const routes = [
   ];
 
 const router = createRouter({
-    history: createWebHistory(base),
+    history: createWebHistory(),
     routes,
+    scrollBehavior(to, from, savedPosition) {
+        // Retourne toujours en haut de la page pour chaque navigation
+        return {left: 0, top: 0};
+    }
 });
 
 export default router;

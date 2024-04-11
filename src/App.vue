@@ -8,9 +8,9 @@
 
       <div class="flex items-center justify-between">
 
-        <a class="flex items-center -mx-1" href="/">
+        <router-link class="flex items-center -mx-1" href="/" to="/">
 
-          <img src="/iconobg.png" alt="logo" width="96px" srcset="">
+          <img src="/iconobg.png" alt="logo" width="96" srcset="">
 
           <!-- <svg
               class="w-8 h-8 mx-1 sm:h-10 sm:w-10"
@@ -38,7 +38,7 @@
 
           </div>
 
-        </a>
+        </router-link>
 
         <button id="al" aria-label="MobileBtn" class="text-gray-600 lg:hidden" @click="isOpen = !isOpen">
 
@@ -124,9 +124,9 @@
 
       <div>
 
-        <a class="flex items-center -mx-2" href="#">
-          
-          <img src="/iconobg.png" alt="logofooter" width="96px" srcset="">
+        <router-link class="flex items-center -mx-2 justify-center lg:justify-start xl:justify-start" to="/">
+
+          <img src="/iconobg.png" alt="logofooter" width="96" srcset="">
           <!-- <svg
               class="w-10 h-10 mx-2"
               width="48"
@@ -145,7 +145,7 @@
 
           </svg> -->
 
-          <div class="mx-2 text-white">
+          <div class=" text-white">
 
             <h3 class="font-medium tracking-widest uppercase">STEPHANE BEAUMONT</h3>
 
@@ -155,9 +155,9 @@
 
           </div>
 
-        </a>
+        </router-link>
 
-        <p class="max-w-lg mt-6 leading-relaxed text-white">
+        <p class="w-full lg:max-w-lg xl:max-w-lg mt-6 leading-relaxed text-white text-center lg:text-left xl:text-left">
           Zéro phyto, Alternatives non polluantes, contrôle de la biodiversité, lutte biologique contre les ravageurs.
         </p>
 
@@ -167,31 +167,31 @@
 
         <router-link
             to="/"
-            class="text-white hover:text-gray-300">
+            class="text-white hover:text-gray-300 text-center lg:text-left xl:text-left">
           Accueil
         </router-link>
 
         <router-link
             to="/services-au-jardin"
-            class="text-white hover:text-gray-300">
+            class="text-white hover:text-gray-300 text-center lg:text-left xl:text-left">
           Entretien saisonnier
         </router-link>
 
         <router-link
             to="/services-de-la-taille"
-            class="text-white hover:text-gray-300">
+            class="text-white hover:text-gray-300 text-center lg:text-left xl:text-left">
           Services de la taille
         </router-link>
 
         <router-link
             to="/services"
-            class="text-white hover:text-gray-300">
+            class="text-white hover:text-gray-300 text-center lg:text-left xl:text-left">
           Biocontrôle
         </router-link>
 
         <router-link
             to="/contactez-moi"
-            class="text-white hover:text-gray-300">
+            class="text-white hover:text-gray-300 text-center lg:text-left xl:text-left">
           Contact
         </router-link>
 
@@ -199,9 +199,9 @@
 
       <div>
 
-        <p class="font-medium text-white">Retrouvez moi aussi sur</p>
+        <p class="font-medium text-white text-center lg:text-left xl:text-left">Retrouvez moi aussi sur</p>
 
-        <div class="flex mt-6 -mx-4">
+        <div class="flex mt-6 -mx-4 justify-center lg:justify-start xl:justify-start">
 
           <a class="mx-4 text-white hover:text-gray-300" href="#" aria-label="Twitter link">
 
@@ -317,7 +317,7 @@
 
         </div>
 
-        <p class="text-white mt-5">06.78.47.00.72</p>
+        <p type="tel" class="text-white mt-5 text-center lg:text-left xl:text-left">06.78.47.00.72</p>
 
       </div>
 

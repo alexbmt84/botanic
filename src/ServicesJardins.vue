@@ -22,18 +22,17 @@
 
         <div class="mt-6">
 
-          <a href="/contactez-moi"
-            target="_blank"
-            aria-label="contact"
-            class="block bg-[#475F45] hover:bg-[#475F45]/80 transition-colors border-2 border-[#475F45] text-center px-6 py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white mb-5">
+          <router-link to="/contactez-moi"
+             aria-label="contact"
+             class="block bg-[#475F45] hover:bg-[#475F45]/80 transition-colors border-2 border-[#475F45] text-center px-6 py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white mb-5">
             Contactez-moi
-          </a>
+          </router-link>
 
         </div>
 
       </div>
 
-      <div class="lg:w-1/2 flex justify-center lg:justify-end">
+      <div class="w-full lg:w-1/2 flex justify-center lg:justify-end">
         <img class="object-cover h-auto max-w-full rounded-xl" src="/img/taille_arbustives.webp" alt="">
       </div>
 
@@ -43,13 +42,13 @@
 
   <section class="lg:px-16 px-12">
 
-    <div class="container bg-[#343D33] mx-auto py-8 px-8">
+    <div class="container bg-[#343D33] mx-auto py-8 px-8 rounded-2xl">
 
       <div class="grid md:grid-cols-3 gap-8">
 
         <div class="flex flex-col items-center text-center">
 
-          <img src="/img/tonte.webp" alt="Tonte" class="w-full shadow-lg">
+          <img src="/img/tonte.webp" alt="Tonte" class="w-full shadow-lg border-2 border-white rounded-lg">
           <h2 class="mt-4 font-bold text-xl text-white">Tonte</h2>
           <p class="mt-2 text-white">Le souci du détail pour un gazon plus dense et résistant</p>
 
@@ -57,7 +56,7 @@
 
         <div class="flex flex-col items-center text-center">
 
-          <img src="/img/taille_haies.webp" alt="Tailles des haies" class="w-full shadow-lg">
+          <img src="/img/taille_haies.webp" alt="Tailles des haies" class="w-full shadow-lg border-2 border-white rounded-lg">
           <h2 class="mt-4 font-bold text-xl text-white">Tailles des haies</h2>
           <p class="mt-2 text-white">Un service d'expert avec du matériel adapté pour la taille de haie ou rabattage en
             hauteur</p>
@@ -66,10 +65,10 @@
 
         <div class="flex flex-col items-center text-center">
 
-          <img src="/img/debroussaillage.webp" alt="Débroussaillage" class="w-full shadow-lg">
+          <img src="/img/debroussaillage.webp" alt="Débroussaillage" class="w-full shadow-lg border-2 border-white rounded-lg">
           <h2 class="mt-4 font-bold text-xl text-white">Débroussaillage</h2>
           <p class="mt-2 text-white">Risques incendies ....N'attendez pas le dernier moment pour protéger votre
-            patrimoine et vous mettre</p>
+            patrimoine</p>
 
         </div>
 
@@ -81,13 +80,13 @@
 
   <section class="lg:px-16 px-12 mt-20 mb-20">
 
-    <div class="container bg-[#343D33] mx-auto py-8 px-8">
+    <div class="container bg-[#343D33] mx-auto py-8 px-8 rounded-2xl">
 
       <div class="grid md:grid-cols-3 gap-8">
 
         <div class="flex flex-col items-center text-center">
 
-          <img src="/img/brf.webp" alt="BRF" class="w-full shadow-lg">
+          <img src="/img/brf.webp" alt="BRF" class="w-full shadow-lg border-2 border-white rounded-lg">
           <h2 class="mt-4 font-bold text-xl text-white">BRF</h2>
           <p class="mt-2 text-white">Afin de limiter l’évaporation du sol et la croissance des mauvaises herbes.</p>
 
@@ -95,7 +94,7 @@
 
         <div class="flex flex-col items-center text-center">
 
-          <img src="/img/plantation.webp" alt="Plantation" class="w-full shadow-lg">
+          <img src="/img/plantation.webp" alt="Plantation" class="w-full shadow-lg border-2 border-white rounded-lg">
           <h2 class="mt-4 font-bold text-xl text-white">Plantation</h2>
           <p class="mt-2 text-white">Un service d'expert</p>
 
@@ -103,7 +102,7 @@
 
         <div class="flex flex-col items-center text-center">
 
-          <img src="/img/desherbage.web.webp" alt="Désherbage de jardin" class="w-full shadow-lg">
+          <img src="/img/desherbage.web.webp" alt="Désherbage de jardin" class="w-full shadow-lg border-2 border-white rounded-lg">
           <h2 class="mt-4 font-bold text-xl text-white">Désherbage de jardin</h2>
           <p class="mt-2 text-white">Dans une démarche zéro phyto, j'utilise la technique de désherbage adaptée à votre
             jardin en privilégiant les solutions douces.</p>
