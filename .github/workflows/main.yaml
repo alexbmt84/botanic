@@ -8,7 +8,7 @@ on:
 jobs:
   push:
     runs-on: ubuntu-latest
-    environment: main
+
     strategy:
       matrix:
         node-version: [18.x]
@@ -25,7 +25,7 @@ jobs:
 
       - name: Deploy to cPanel
         uses: appleboy/scp-action@v0.1.4
-        with:
+        env:
           host: ${{ secrets.CPANEL_HOST }}
           username: ${{ secrets.CPANEL_USERNAME }}
           port: 22
