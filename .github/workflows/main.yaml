@@ -24,11 +24,11 @@ jobs:
         run: npm run build
 
       - name: Deploy to cPanel
-        uses: appleboy/scp-action@v0.1.7
+        uses: appleboy/scp-action@v0.1.4
         with:
           host: ${{ secrets.CPANEL_HOST }}
           username: ${{ secrets.CPANEL_USERNAME }}
-          key: ${{ secrets.CPANEL_SSH_KEY }}
           port: 22
+          key: ${{ secrets.CPANEL_SSH_KEY }}
           source: "dist"
           target: "sites/stephanebeaumontjardinier.com"
