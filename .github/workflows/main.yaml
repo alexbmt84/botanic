@@ -31,5 +31,5 @@ jobs:
           username: ${{ secrets.CPANEL_USERNAME }}
           key: ${{ secrets.CPANEL_SSH_KEY }}
           source: "dist"
-          target: "/sites/stephanebeaumontjardinier.com"
+          target: "sites/stephanebeaumontjardinier.com/"
           timeout: 120s
