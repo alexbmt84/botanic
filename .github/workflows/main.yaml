@@ -32,5 +32,5 @@ jobs:
           port: 22
           key: ${{ secrets.CPANEL_SSH_KEY }}
           source: dist
-          dest: /home/pkal0529/sites/stephanebeaumontjardinier.com/
+          dest: /sites/stephanebeaumontjardinier.com/
           timeout: 120s
