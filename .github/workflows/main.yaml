@@ -30,7 +30,6 @@ jobs:
           host: ${{ secrets.CPANEL_HOST }}
           username: ${{ secrets.CPANEL_USERNAME }}
           privateKey: ${{ secrets.CPANEL_SSH_KEY }}
-          passphrase: ${{ secrets.CPANEL_PASSPHRASE }}
           source: "dist"
           target: "sites/stephanebeaumontjardinier.com/"
           timeout: 120s
