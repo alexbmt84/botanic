@@ -25,7 +25,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to cPanel
-        uses: garygrossgarten@github-action-ssh@release
+        uses: garygrossgarten/github-action-ssh@release
         with:
           host: ${{ secrets.CPANEL_HOST }}
           username: ${{ secrets.CPANEL_USERNAME }}
