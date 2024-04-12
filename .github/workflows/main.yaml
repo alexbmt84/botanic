@@ -9,28 +9,13 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [ 18.x ]
-    environment: main
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Build Vue app
-        run: npm run build
-
       - name: Deploy to cPanel
         uses: garygrossgarten/github-action-ssh@release
         with:
           host: ${{ secrets.CPANEL_HOST }}
           username: ${{ secrets.CPANEL_USERNAME }}
           privateKey: ${{ secrets.CPANEL_SSH_KEY }}
-          source: "dist"
-          target: "sites/stephanebeaumontjardinier.com/"
-          timeout: 120s
           command: whoami
