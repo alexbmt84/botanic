@@ -34,6 +34,7 @@
 
           <img src="/img/taille_arbustives.webp" alt="Tailles arbustives" class="mx-auto border-2 border-white rounded-lg"/>
           <h2 class="text-xl mt-8 font-semibold text-white">Tailles arbustives</h2>
+          
           <p class="mt-1 text-white">Centré sur le client</p>
 
         </div>
