@@ -1,21 +1,22 @@
 name: Deploy
 
+run-name: test environment
+
 on:
   push:
     branches:
       - main
 
 jobs:
-  build:
-    name: Build
+  deployment:
+    name: test
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
       - name: Deploy to cPanel
         uses: garygrossgarten/github-action-ssh@release
         with:
           host: ${{ secrets.CPANEL_HOST }}
+          port: 22
           username: ${{ secrets.CPANEL_USERNAME }}
           privateKey: ${{ secrets.CPANEL_SSH_KEY }}
           command: whoami
