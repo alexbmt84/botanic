@@ -25,11 +25,12 @@ jobs:
         run: npm run build
 
       - name: Deploy to cPanel
-        uses: appleboy/scp-action@master
+        uses: garygrossgarten@github-action-ssh@release
         with:
           host: ${{ secrets.CPANEL_HOST }}
           username: ${{ secrets.CPANEL_USERNAME }}
-          key: ${{ secrets.CPANEL_SSH_KEY }}
+          privateKey: ${{ secrets.CPANEL_SSH_KEY }}
           source: "dist"
           target: "sites/stephanebeaumontjardinier.com/"
           timeout: 120s
+          command: whoami
