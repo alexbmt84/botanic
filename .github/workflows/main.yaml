@@ -8,17 +8,15 @@ on:
       - main
 
 jobs:
-  deploy:
+  deployment:
+    name: test
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to cPanel
-        id: deploy
-        uses: pinkasey/cpanel-deploy-action@v1.0.0
+        uses: garygrossgarten/github-action-ssh@release
         with:
-          hostname: '{{ secrets.CPANEL_HOST }}'
-          repository_root: '/home/my_account/repositories/my_repository'
-          branch: main
-          username: '${{ secrets.CPANEL_USERNAME }}'
-          secretKey: '${{ secrets.CPANEL_USERNAME }}'
-      - name: echo deploy-duration
-        run: echo "Deployment took ${{ steps.deploy.outputs.duration }} milliseconds"
+          host: ${{ secrets.CPANEL_HOST }}
+          port: 22
+          username: ${{ secrets.CPANEL_USERNAME }}
+          privateKey: ${{ secrets.CPANEL_SSH_KEY }}
+          command: whoami
